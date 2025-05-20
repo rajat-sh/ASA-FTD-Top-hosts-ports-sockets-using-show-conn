@@ -3,15 +3,25 @@ This document is using "show conn" output, "show conn long" and "show long detai
 show conn output will look like following:
 
 TCP outside 10.48.26.239:8305 inside 192.168.1.96:41815, idle 0:00:01, bytes 32564248, flags UxIO
+
 TCP outside 3.65.105.133:443 inside 192.168.1.222:50034, idle 0:00:02, bytes 6734661, flags UxIO
+
 TCP outside 10.48.26.239:8305 inside 192.168.1.96:47891, idle 0:00:08, bytes 13081667, flags UxIO
+
 TCP outside 146.112.255.69:443 inside 192.168.1.222:50880, idle 0:00:55, bytes 11005, flags UxIO
+
 UDP outside 172.31.74.20:123 inside 192.168.1.223:123, idle 0:00:08, bytes 48, flags -
+
 TCP outside 10.0.1.10:389 inside 192.168.1.222:44914, idle 0:00:17, bytes 0, flags sxaA
+
 UDP outside 10.0.1.135:514 inside 192.168.1.222:56219, idle 0:00:00, bytes 1141743837, flags -
+
 TCP outside 10.0.1.11:389 inside 192.168.1.222:48668, idle 0:00:07, bytes 0, flags sxaA
+
 TCP outside 10.0.1.202:8910 inside 192.168.1.222:49486, idle 0:00:21, bytes 0, flags sxaA
+
 TCP outside 10.48.26.239:8305 inside 192.168.1.94:41823, idle 0:00:04, bytes 10865453, flags UxIO
+
 TCP outside 10.48.26.239:8305 inside 192.168.1.94:57773, idle 0:00:01, bytes 9255547, flags UxIO
 
 File are attached, site wont accept .sh files, so i changed extension to .text, however extension is optional, you can use file with any name extension.
