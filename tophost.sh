@@ -57,6 +57,7 @@ echo "Enter the show conn file name in current directory or full path name"
  		 sub(":", " ", $0)
  		 sub(":", " ", $0)
  		print $3":"$4
+   print $6":"$7
  	}
  }
  END{}
